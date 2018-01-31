@@ -32,6 +32,6 @@ public static void main(String[] args) {
 
     // (1) はここまで、以下は (3) のコード
 
-    Tree<Integer> stringLengthTree = javaBranch.<Integer>map(String::length);
+    Tree<Integer> stringLengthTree = javaBranch.<Integer>map(s -> s.length());
 }
 ```
