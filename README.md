@@ -8,6 +8,7 @@ Pull Request 歓迎
 ### Java コード
 
 ### OCaml コード
+資料に載っている二分木のコード: Bst.ml
 
 ### C コード
 
