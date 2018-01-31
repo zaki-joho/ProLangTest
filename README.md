@@ -9,6 +9,7 @@ Pull Request 歓迎
 
 ### OCaml コード
 資料に載っている二分木のコード: Bst.ml
+多相性二分木: PolyBst.ml
 
 ### C コード
 
@@ -16,4 +17,9 @@ Pull Request 歓迎
 出るんか？
 
 ## 過去問解答
-Answer/ 以下
+Answers/ 以下
+
+## TODO
+語句説明まとめ
+Java 二分木のコード
+Lisp 二分木のコード
