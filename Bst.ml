@@ -1,4 +1,4 @@
-(* 資料の二分木を実装 *)
+(* 資料の二分探索木を実装 *)
 type tree =
     Lf
     | Br of {
@@ -7,7 +7,7 @@ type tree =
         right: tree;
     }
 
-(* 具体的な二分木は以下のように作成 
+(* 具体的な二分探索木は以下のように作成 
 let t1 = Br {left = Lf; value = 10; right = Lf}
 let t2 = Br {left = Lf; value = 25; right = Lf}
 let tr = Br {left = t1; value = 10; right = t2}
@@ -32,6 +32,12 @@ let rec insert(t, n) =
      else (* n > v *)   Br {left=l;            value=v; right=insert(r, n)}
 
 (* 削除 *)
+let rec min t =
+  match t with
+    Lf -> -255
+  | Br {left=Lf; value=v; right=_} -> v
+  | Br {left=l;  value=_; right=_} -> min l
+
 let rec delete(t, n) =
   match t with
     Lf -> t
