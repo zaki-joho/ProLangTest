@@ -3,6 +3,7 @@ Pull Request 歓迎
 
 ## カンペの下書き
 カンペが欲しい！
+
 ### 語句説明
 
 ### Java コード
@@ -20,6 +21,6 @@ Pull Request 歓迎
 Answers/ 以下
 
 ## TODO
-語句説明まとめ
-Java 二分木のコード
+語句説明まとめ  
+Java 二分木のコード  
 Lisp 二分木のコード
